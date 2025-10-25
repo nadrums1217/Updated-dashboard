@@ -618,7 +618,7 @@ function renderCharts() {
       labels: hourlyData.map(d => d.time),
       datasets: [
         { label: state.settings.city1.name, data: hourlyData.map(d => d.uv1), borderColor: 'rgb(249, 115, 22)', tension: 0.4 },
-        { label: state.settings.city2.name, data: hourlyData.map(d => d.uv2), borderColor: 'rgb(236, 72, 153)', tension, 0.4 }
+        { label: state.settings.city2.name, data: hourlyData.map(d => d.uv2), borderColor: 'rgb(236, 72, 153)', tension: 0.4 }
       ]
     }, {
       responsive: true,
